@@ -33,7 +33,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+.all {
+    overflow-x: hidden;
 }
 
 .Navvvisay{
@@ -42,11 +45,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
-
-
-
 }
 
 nav{
@@ -84,6 +82,7 @@ nav ul li a.quote-link {
     padding: 30px 0;
     text-align: center;
     border-radius: 4px;
+    box-shadow: 5px 5px 10px black;
 }
 
 
@@ -124,6 +123,7 @@ a:hover{
     position: absolute;
     background-position:center;
     background-size:cover;
+    box-shadow: 0px 4px 20px -10px black;
 
 }
 
@@ -145,7 +145,6 @@ a:hover{
     animation: fadeIn 3.5s;
     font-family: Newlight;
 }
-
 
 .link1 {
     padding-top: 10vh;
@@ -189,16 +188,21 @@ a:hover{
     justify-content: flex-start;  
     align-items: flex-start;      
     margin-top: 30%;
-    margin-bottom: 20%;
-    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-left: 0%;
     width: 100%;                  
     padding: 0;
+}
+
+.bodyoverall div img {
+    margin-left: 20%;
 }
 
 .body1 {
     width: 500px;   
     height: 500px;  
     margin-right: 20px; 
+    margin-top: 10px;
 }
 
 .text-container {
@@ -209,7 +213,8 @@ a:hover{
     border: 1px solid transparent;     
     padding: 20px;              
     border-radius: 1px;         
-    overflow: hidden;          
+    overflow: hidden;      
+    margin-left: 8%;    
 }
 
 .h2-3 {
